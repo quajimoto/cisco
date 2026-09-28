@@ -1,0 +1,2210 @@
+[
+  {
+    "id": "mukkv64gkame5",
+    "timestamp": "2026-09-28T01:37:30.304Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_3F_SW_5] (10.101.241.5)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukkv5cwjxq6n",
+    "timestamp": "2026-09-28T01:37:29.312Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukkv4z0csscy",
+    "timestamp": "2026-09-28T01:37:28.812Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukkv3n8gqurc",
+    "timestamp": "2026-09-28T01:37:27.092Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukkv26ej4zdf",
+    "timestamp": "2026-09-28T01:37:25.190Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukkv18haa6j0",
+    "timestamp": "2026-09-28T01:37:23.969Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukkuzqmvww87",
+    "timestamp": "2026-09-28T01:37:22.030Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukktf66selkj",
+    "timestamp": "2026-09-28T01:36:08.718Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukktf55wuq4j",
+    "timestamp": "2026-09-28T01:36:08.681Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukktf3zh75ux",
+    "timestamp": "2026-09-28T01:36:08.639Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukktf3154uko",
+    "timestamp": "2026-09-28T01:36:08.605Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_3F_SW_5] (10.101.241.5)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukktf259m3dv",
+    "timestamp": "2026-09-28T01:36:08.573Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki5d5clsgbj",
+    "timestamp": "2026-09-28T00:21:27.120Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki59qbibk46",
+    "timestamp": "2026-09-28T00:21:22.691Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_3F_SW_5] (10.101.241.5)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki596s2bcp0",
+    "timestamp": "2026-09-28T00:21:21.988Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki58faa5nkm",
+    "timestamp": "2026-09-28T00:21:20.998Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki575o3miy8",
+    "timestamp": "2026-09-28T00:21:19.356Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki52rgz7w9i",
+    "timestamp": "2026-09-28T00:21:13.660Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki4xx8bj6dk",
+    "timestamp": "2026-09-28T00:21:07.388Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muki4pt6pm7mi",
+    "timestamp": "2026-09-28T00:20:56.874Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukhko0h9v2uc",
+    "timestamp": "2026-09-28T00:05:21.425Z",
+    "category": "POWER",
+    "username": "admin",
+    "ip": "::1",
+    "action": "전원 경보 수동 해제: POE-20260928-308",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukhko02g3sk6",
+    "timestamp": "2026-09-28T00:05:21.410Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.7",
+    "action": "[전원 복구 확인] 장비 [OFFICE_1F_SW_2 (10.101.241.7)] 전원 정상 인가 및 복구 완료",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "PWR-RESTORE-20260928-692",
+      "deviceId": "dev-office-1f-sw2"
+    }
+  },
+  {
+    "id": "mukhknzgp2nxg",
+    "timestamp": "2026-09-28T00:05:21.389Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.5",
+    "action": "[PoE 전원 꺼짐] OFFICE_3F_SW_5 포트 Gi1/0/5 (PoE-Device-Gi1/0/5) 전원 차단 -> 담당자(netadmin@company.com) 메일 발송",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "POE-20260928-308",
+      "portName": "Gi1/0/5"
+    }
+  },
+  {
+    "id": "mukhknxuuj2uj",
+    "timestamp": "2026-09-28T00:05:21.330Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.7",
+    "action": "[전원 꺼짐 감지] 장비 [OFFICE_1F_SW_2 (10.101.241.7)] 전원 꺼짐 -> 담당자(netadmin@company.com) 긴급 메일 발송 완료",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "PWR-20260928-909",
+      "deviceId": "dev-office-1f-sw2",
+      "reason": "1층 분전함 누전차단기(ELB) 트립 및 메인 AC 전원 차단"
+    }
+  },
+  {
+    "id": "mukhknwts7bi9",
+    "timestamp": "2026-09-28T00:05:21.293Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukhk2yxl24xq",
+    "timestamp": "2026-09-28T00:04:54.153Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mukhjvrfwd6dm",
+    "timestamp": "2026-09-28T00:04:44.811Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mukhb2t8v7twb",
+    "timestamp": "2026-09-27T23:57:54.044Z",
+    "category": "POWER",
+    "username": "admin",
+    "ip": "::1",
+    "action": "전원 경보 수동 해제: POE-20260928-952",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukhb2svf502s",
+    "timestamp": "2026-09-27T23:57:54.031Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.7",
+    "action": "[전원 복구 확인] 장비 [OFFICE_1F_SW_2 (10.101.241.7)] 전원 정상 인가 및 복구 완료",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "PWR-RESTORE-20260928-419",
+      "deviceId": "dev-office-1f-sw2"
+    }
+  },
+  {
+    "id": "mukhb2s9j7q15",
+    "timestamp": "2026-09-27T23:57:54.009Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.5",
+    "action": "[PoE 전원 꺼짐] OFFICE_3F_SW_5 포트 Gi1/0/5 (PoE-Device-Gi1/0/5) 전원 차단 -> 담당자(netadmin@company.com) 메일 발송",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "POE-20260928-952",
+      "portName": "Gi1/0/5"
+    }
+  },
+  {
+    "id": "mukhb2qokrxz7",
+    "timestamp": "2026-09-27T23:57:53.952Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.7",
+    "action": "[전원 꺼짐 감지] 장비 [OFFICE_1F_SW_2 (10.101.241.7)] 전원 꺼짐 -> 담당자(netadmin@company.com) 긴급 메일 발송 완료",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "PWR-20260928-316",
+      "deviceId": "dev-office-1f-sw2",
+      "reason": "1층 분전함 누전차단기(ELB) 트립 및 메인 AC 전원 차단"
+    }
+  },
+  {
+    "id": "mukhb2pg4ia6u",
+    "timestamp": "2026-09-27T23:57:53.908Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukhaa3rwajsb",
+    "timestamp": "2026-09-27T23:57:16.839Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.5",
+    "action": "[PoE 전원 꺼짐] OFFICE_3F_SW_5 포트 Gi1/0/5 (PoE-Device-Gi1/0/5) 전원 차단 -> 담당자(netadmin@company.com) 메일 발송",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "POE-20260928-903",
+      "portName": "Gi1/0/5"
+    }
+  },
+  {
+    "id": "mukha4svh3k9g",
+    "timestamp": "2026-09-27T23:57:09.967Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.7",
+    "action": "[전원 복구 확인] 장비 [OFFICE_1F_SW_2 (10.101.241.7)] 전원 정상 인가 및 복구 완료",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "PWR-RESTORE-20260928-694",
+      "deviceId": "dev-office-1f-sw2"
+    }
+  },
+  {
+    "id": "mukh9y998qjog",
+    "timestamp": "2026-09-27T23:57:01.485Z",
+    "category": "POWER",
+    "username": "Power-Monitor",
+    "ip": "10.101.241.7",
+    "action": "[전원 꺼짐 감지] 장비 [OFFICE_1F_SW_2 (10.101.241.7)] 전원 꺼짐 -> 담당자(netadmin@company.com) 긴급 메일 발송 완료",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "PWR-20260928-475",
+      "deviceId": "dev-office-1f-sw2",
+      "reason": "메인 AC 전원 공급 중단 또는 PDU 차단기 이상"
+    }
+  },
+  {
+    "id": "mukh9depay7bj",
+    "timestamp": "2026-09-27T23:56:34.465Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukh95t51t3sj",
+    "timestamp": "2026-09-27T23:56:24.617Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgth58zwsai",
+    "timestamp": "2026-09-27T23:44:12.812Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_3F_SW_5] (10.101.241.5)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgtg0uilbxp",
+    "timestamp": "2026-09-27T23:44:11.358Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgtdx6j0pvh",
+    "timestamp": "2026-09-27T23:44:08.635Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgtbtcok7lg",
+    "timestamp": "2026-09-27T23:44:05.904Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgta2etklfn",
+    "timestamp": "2026-09-27T23:44:03.638Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_3F_SW_5] (10.101.241.5)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgt7mqun6xf",
+    "timestamp": "2026-09-27T23:44:00.482Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgt5fmw5iwq",
+    "timestamp": "2026-09-27T23:43:57.634Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgt4d5o9wws",
+    "timestamp": "2026-09-27T23:43:56.249Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgt2v8fwpe0",
+    "timestamp": "2026-09-27T23:43:54.308Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgsueddvg68",
+    "timestamp": "2026-09-27T23:43:43.333Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mukgspl83rrzw",
+    "timestamp": "2026-09-27T23:43:37.100Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp298iuu8m2",
+    "timestamp": "2026-09-23T06:00:36.162Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장비 삭제: dev-cisco-branch-sw-mudp296t",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp297hz9fk3",
+    "timestamp": "2026-09-23T06:00:36.125Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco Running-Config 텍스트 파싱 로드 (신규 장비 등록)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp294y8qorl",
+    "timestamp": "2026-09-23T06:00:36.034Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp20oo04fe0",
+    "timestamp": "2026-09-23T06:00:25.080Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp20a7q6k60",
+    "timestamp": "2026-09-23T06:00:24.559Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1zlecij4g",
+    "timestamp": "2026-09-23T06:00:23.666Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [MAIN_CORE_L3_SW] (10.101.241.1)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1y32h608l",
+    "timestamp": "2026-09-23T06:00:21.710Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_3F_SW_5] (10.101.241.5)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1vhzdv2do",
+    "timestamp": "2026-09-23T06:00:18.359Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1kl00i0yf",
+    "timestamp": "2026-09-23T06:00:04.212Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장비 삭제: dev-office-3f-sw-3-mudp1kj0",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1kkgxtqnf",
+    "timestamp": "2026-09-23T06:00:04.192Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1kjn4stem",
+    "timestamp": "2026-09-23T06:00:04.163Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "신규 장비 등록: [OFFICE_3F_SW_3] (10.101.241.8)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1kilo9nlg",
+    "timestamp": "2026-09-23T06:00:04.125Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudp1khmqfop7",
+    "timestamp": "2026-09-23T06:00:04.090Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudokyzv0jlbk",
+    "timestamp": "2026-09-23T05:47:09.739Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.5] 실시간 설정 동기화 완료",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoi2j2mwb8s",
+    "timestamp": "2026-09-23T05:44:54.350Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.1] 실시간 설정 동기화 완료",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoh7j2bu4oi",
+    "timestamp": "2026-09-23T05:44:14.174Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoetyoh3082",
+    "timestamp": "2026-09-23T05:42:23.280Z",
+    "category": "SECURITY",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "Viewer 권한의 쓰기 시도 차단 (PUT /api/switch/ports/1)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetyd771eu",
+    "timestamp": "2026-09-23T05:42:23.269Z",
+    "category": "AUTH",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: viewer)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoetx5btzxn",
+    "timestamp": "2026-09-23T05:42:23.225Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CLI 콘솔 명령 실행: \"show vlan brief\"",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoetwp98m7y",
+    "timestamp": "2026-09-23T05:42:23.209Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 보안 설정 변경",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoetvbuh64g",
+    "timestamp": "2026-09-23T05:42:23.159Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 등록: AA:BB:CC:11:22:33 (포트: Gi1/0/3, IP: -)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoettu5dpxh",
+    "timestamp": "2026-09-23T05:42:23.106Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoets5k2wgh",
+    "timestamp": "2026-09-23T05:42:23.045Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CSRF 토큰 불일치 요청 차단 (POST /api/switch/vlans)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetrv5ftnp",
+    "timestamp": "2026-09-23T05:42:23.035Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoetqnq1uyg",
+    "timestamp": "2026-09-23T05:42:22.991Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "계정 잠금 상태 로그인 시도 차단 (300초 남음)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetqdu1yhc",
+    "timestamp": "2026-09-23T05:42:22.981Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetq4mxdny",
+    "timestamp": "2026-09-23T05:42:22.972Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetpuhr7z4",
+    "timestamp": "2026-09-23T05:42:22.962Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetpkog1ro",
+    "timestamp": "2026-09-23T05:42:22.952Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoetp9e519a",
+    "timestamp": "2026-09-23T05:42:22.941Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudoef1kndqfp",
+    "timestamp": "2026-09-23T05:42:03.944Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장비 삭제: dev-office-3f-sw-3-mudoeez7",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoef0yu54il",
+    "timestamp": "2026-09-23T05:42:03.922Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_2F_SW_1] (10.101.241.6)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoeeztbhve4",
+    "timestamp": "2026-09-23T05:42:03.882Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "신규 장비 등록: [OFFICE_3F_SW_3] (10.101.241.8)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoeeyu5hq8c",
+    "timestamp": "2026-09-23T05:42:03.846Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "관리 장비 전환: [OFFICE_1F_SW_2] (10.101.241.7)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudoeexx8kmoj",
+    "timestamp": "2026-09-23T05:42:03.813Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudo8g7h9gh1s",
+    "timestamp": "2026-09-23T05:37:25.517Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi2/0/14 (LINK_DOWN)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudo8g7aqcer9",
+    "timestamp": "2026-09-23T05:37:25.510Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-202] Gi2/0/14 (LINK_DOWN) -> jeonghwan.oh@shc.co.kr",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "INC-20260923-202",
+      "severity": "HIGH",
+      "portName": "Gi2/0/14"
+    }
+  },
+  {
+    "id": "mudo8bce6851e",
+    "timestamp": "2026-09-23T05:37:19.214Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "담당자 장애 알림 이메일 설정 업데이트 (jeonghwan.oh@shc.co.kr)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnxroarr0zk",
+    "timestamp": "2026-09-23T05:29:07.162Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi2/0/14 (LINK_DOWN)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnxro16vdrr",
+    "timestamp": "2026-09-23T05:29:07.153Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-379] Gi2/0/14 (LINK_DOWN) -> jeonghwan.oh@shc.co.kr",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "INC-20260923-379",
+      "severity": "HIGH",
+      "portName": "Gi2/0/14"
+    }
+  },
+  {
+    "id": "mudnuaweu87la",
+    "timestamp": "2026-09-23T05:26:25.454Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi2/0/14 (LINK_DOWN)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnuaw7igoew",
+    "timestamp": "2026-09-23T05:26:25.447Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-457] Gi2/0/14 (LINK_DOWN) -> jeonghwan.oh@shc.co.kr",
+    "status": "FAILURE",
+    "details": {
+      "reportId": "INC-20260923-457",
+      "severity": "HIGH",
+      "portName": "Gi2/0/14"
+    }
+  },
+  {
+    "id": "mudnsah5jre68",
+    "timestamp": "2026-09-23T05:24:51.593Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "담당자 장애 알림 이메일 설정 업데이트 (jeonghwan.oh@shc.co.kr)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnpl86kmh6m",
+    "timestamp": "2026-09-23T05:22:45.558Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnp5uqxozzl",
+    "timestamp": "2026-09-23T05:22:25.634Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi1/0/3 (PORT_SECURITY_VIOLATION)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnp5ujvb9is",
+    "timestamp": "2026-09-23T05:22:25.627Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-710] Gi1/0/3 (PORT_SECURITY_VIOLATION) -> netadmin@company.com",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "INC-20260923-710",
+      "severity": "CRITICAL",
+      "portName": "Gi1/0/3"
+    }
+  },
+  {
+    "id": "mudnp5thf6tps",
+    "timestamp": "2026-09-23T05:22:25.589Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi2/0/14 (LINK_DOWN)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnp5t9travf",
+    "timestamp": "2026-09-23T05:22:25.581Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-907] Gi2/0/14 (LINK_DOWN) -> netadmin@company.com",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "INC-20260923-907",
+      "severity": "HIGH",
+      "portName": "Gi2/0/14"
+    }
+  },
+  {
+    "id": "mudnp5s79a83x",
+    "timestamp": "2026-09-23T05:22:25.543Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "담당자 장애 알림 이메일 설정 업데이트 (netadmin@company.com)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnp5r8fnrmm",
+    "timestamp": "2026-09-23T05:22:25.508Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnoch5rlpup",
+    "timestamp": "2026-09-23T05:21:47.561Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi1/0/3 (PORT_SECURITY_VIOLATION)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnocgx0oiy8",
+    "timestamp": "2026-09-23T05:21:47.553Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-165] Gi1/0/3 (PORT_SECURITY_VIOLATION) -> netadmin@company.com",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "INC-20260923-165",
+      "severity": "CRITICAL",
+      "portName": "Gi1/0/3"
+    }
+  },
+  {
+    "id": "mudnocfnz4xcv",
+    "timestamp": "2026-09-23T05:21:47.508Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "장애 시뮬레이션 및 보고서 발송: Gi2/0/14 (LINK_DOWN)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnocfg9nxv3",
+    "timestamp": "2026-09-23T05:21:47.500Z",
+    "category": "ALERT",
+    "username": "System-Monitor",
+    "ip": "10.101.241.6",
+    "action": "장애 보고서 발송 [INC-20260923-300] Gi2/0/14 (LINK_DOWN) -> netadmin@company.com",
+    "status": "SUCCESS",
+    "details": {
+      "reportId": "INC-20260923-300",
+      "severity": "HIGH",
+      "portName": "Gi2/0/14"
+    }
+  },
+  {
+    "id": "mudnocef165uc",
+    "timestamp": "2026-09-23T05:21:47.463Z",
+    "category": "ALERT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "담당자 장애 알림 이메일 설정 업데이트 (netadmin@company.com)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudnocddstksu",
+    "timestamp": "2026-09-23T05:21:47.425Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn9q9gu498h",
+    "timestamp": "2026-09-23T05:10:25.588Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8uocqdjqp",
+    "timestamp": "2026-09-23T05:09:44.652Z",
+    "category": "SECURITY",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "Viewer 권한의 쓰기 시도 차단 (PUT /api/switch/ports/1)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8uo4fp33k",
+    "timestamp": "2026-09-23T05:09:44.644Z",
+    "category": "AUTH",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: viewer)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8umygam6b",
+    "timestamp": "2026-09-23T05:09:44.602Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CLI 콘솔 명령 실행: \"show vlan brief\"",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8umjssdzd",
+    "timestamp": "2026-09-23T05:09:44.587Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 보안 설정 변경",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8ulszth7n",
+    "timestamp": "2026-09-23T05:09:44.560Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 등록: AA:BB:CC:11:22:33 (포트: Gi1/0/3, IP: -)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8ul1dxxw0",
+    "timestamp": "2026-09-23T05:09:44.533Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8ukaf6ju4",
+    "timestamp": "2026-09-23T05:09:44.506Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "새 VLAN 생성: 200 (SECURE_ZONE, IP: L2 전용 (IP 미할당))",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8ujjknb4x",
+    "timestamp": "2026-09-23T05:09:44.479Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CSRF 토큰 불일치 요청 차단 (POST /api/switch/vlans)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8ujaympt7",
+    "timestamp": "2026-09-23T05:09:44.470Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8ui5hgueq",
+    "timestamp": "2026-09-23T05:09:44.429Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "계정 잠금 상태 로그인 시도 차단 (300초 남음)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8uhxpg0el",
+    "timestamp": "2026-09-23T05:09:44.421Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8uhogeayz",
+    "timestamp": "2026-09-23T05:09:44.412Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8uhgvke9j",
+    "timestamp": "2026-09-23T05:09:44.404Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8uh71zyag",
+    "timestamp": "2026-09-23T05:09:44.395Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8ugxt2z7m",
+    "timestamp": "2026-09-23T05:09:44.385Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudn8kfno7vot",
+    "timestamp": "2026-09-23T05:09:31.379Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 삭제: 00:1A:2B:99:88:77",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8kexgs4fv",
+    "timestamp": "2026-09-23T05:09:31.353Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 등록: 00:1A:2B:99:88:77 (포트: Gi1/0/5, IP: 10.101.2.250)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8ke641za2",
+    "timestamp": "2026-09-23T05:09:31.326Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "클라이언트 정보 수정 [00:00:86:60:E0:EE] IP: 10.101.2.222, 장치명: Public-Service-GW (공용망 게이트웨이)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudn8kcph0ks6",
+    "timestamp": "2026-09-23T05:09:31.273Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmqwm08i9me",
+    "timestamp": "2026-09-23T04:55:47.352Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "VLAN 삭제: 50",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmqwla1bqiv",
+    "timestamp": "2026-09-23T04:55:47.326Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "VLAN 50 IP 대역/설정 변경",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmqwkhns8b8",
+    "timestamp": "2026-09-23T04:55:47.297Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "새 VLAN 생성: 50 (VOIP_PHONES, IP: 10.101.50.1 ~ 10.101.50.254)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmqwjp4mwmm",
+    "timestamp": "2026-09-23T04:55:47.269Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmqpqksk5yz",
+    "timestamp": "2026-09-23T04:55:38.444Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmp6mdt9qyt",
+    "timestamp": "2026-09-23T04:54:27.013Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmp2w22oyec",
+    "timestamp": "2026-09-23T04:54:22.178Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmfgpjllzr2",
+    "timestamp": "2026-09-23T04:46:53.528Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi4/0/14 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudmfgofogijr",
+    "timestamp": "2026-09-23T04:46:53.487Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudm9e89i2vpe",
+    "timestamp": "2026-09-23T04:42:10.377Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 실시간 설정 동기화 완료",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudm90ukufu2t",
+    "timestamp": "2026-09-23T04:41:53.036Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudm873mipr0g",
+    "timestamp": "2026-09-23T04:41:14.482Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/48 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudm872bv7929",
+    "timestamp": "2026-09-23T04:41:14.435Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudm24pdaj13j",
+    "timestamp": "2026-09-23T04:36:31.441Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: Cisco 스위치 [10.101.241.6] Telnet 응답 시간 초과 (60초 타임아웃)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudm0nhzua3oz",
+    "timestamp": "2026-09-23T04:35:22.487Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: Cisco 스위치 [10.101.241.6] Telnet 응답 시간 초과 (60초 타임아웃)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlz1aw2gg3s",
+    "timestamp": "2026-09-23T04:34:07.064Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdgp6tcwd",
+    "timestamp": "2026-09-23T04:32:02.857Z",
+    "category": "SECURITY",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "Viewer 권한의 쓰기 시도 차단 (PUT /api/switch/ports/1)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwdgho81yr",
+    "timestamp": "2026-09-23T04:32:02.849Z",
+    "category": "AUTH",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: viewer)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdfd89fzv",
+    "timestamp": "2026-09-23T04:32:02.809Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CLI 콘솔 명령 실행: \"show vlan brief\"",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdf2u300a",
+    "timestamp": "2026-09-23T04:32:02.798Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi3/0/1 보안 설정 변경",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdegl44e4",
+    "timestamp": "2026-09-23T04:32:02.776Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 등록: AA:BB:CC:11:22:33",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwddqdob93",
+    "timestamp": "2026-09-23T04:32:02.750Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi3/0/1 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdd1rjs89",
+    "timestamp": "2026-09-23T04:32:02.725Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "새 VLAN 생성: 200 (SECURE_ZONE)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdcexv0t3",
+    "timestamp": "2026-09-23T04:32:02.702Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CSRF 토큰 불일치 요청 차단 (POST /api/switch/vlans)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwdc4md3ax",
+    "timestamp": "2026-09-23T04:32:02.692Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlwdb1efkt6",
+    "timestamp": "2026-09-23T04:32:02.653Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "계정 잠금 상태 로그인 시도 차단 (300초 남음)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwdavh5es2",
+    "timestamp": "2026-09-23T04:32:02.647Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwdanf3vh0",
+    "timestamp": "2026-09-23T04:32:02.639Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwdaexz172",
+    "timestamp": "2026-09-23T04:32:02.630Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwda6qbb2r",
+    "timestamp": "2026-09-23T04:32:02.622Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlwd9zti7zn",
+    "timestamp": "2026-09-23T04:32:02.615Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlw5x4624zu",
+    "timestamp": "2026-09-23T04:31:53.080Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/48 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlw5w8rmcii",
+    "timestamp": "2026-09-23T04:31:53.048Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlvwj7fkqih",
+    "timestamp": "2026-09-23T04:31:40.915Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/48 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlvwi9tfneq",
+    "timestamp": "2026-09-23T04:31:40.881Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlvan3kjtul",
+    "timestamp": "2026-09-23T04:31:12.543Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlccxlo4spj",
+    "timestamp": "2026-09-23T04:16:29.049Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 실시간 설정 동기화 완료",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlbtu4dtuvk",
+    "timestamp": "2026-09-23T04:16:04.300Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: SSH 연결 오류 [10.101.241.6]: Cisco 스위치 SSH 인증 실패: 스위치에 등록된 계정명(cisco) 또는 비밀번호가 불일치하거나, VTY 라인에 SSH 접근 권한이 없습니다. (시도한 인증방식: password, keyboard-interactive)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlbmewo6jh4",
+    "timestamp": "2026-09-23T04:15:54.680Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: SSH 연결 오류 [10.101.241.6]: Cisco 스위치 SSH 인증 실패: 스위치에 등록된 계정명(cisco) 또는 비밀번호가 불일치하거나, VTY 라인에 SSH 접근 권한이 없습니다. (시도한 인증방식: password, keyboard-interactive)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudlb90mcrabm",
+    "timestamp": "2026-09-23T04:15:37.318Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlaabhrxa5y",
+    "timestamp": "2026-09-23T04:14:52.349Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/9 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlaab0lr9lk",
+    "timestamp": "2026-09-23T04:14:52.332Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S Running-Config 텍스트 파싱 및 로드 완료 (포트수: 26)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudlaaaf8yzz7",
+    "timestamp": "2026-09-23T04:14:52.311Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudl8cnhy25cv",
+    "timestamp": "2026-09-23T04:13:22.061Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: Unsupported algorithm: arcfour",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudl87o4ouxui",
+    "timestamp": "2026-09-23T04:13:15.604Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: Unsupported algorithm: arcfour",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudl83tcnw4nx",
+    "timestamp": "2026-09-23T04:13:10.608Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: Unsupported algorithm: arcfour",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudl7yvavfwdh",
+    "timestamp": "2026-09-23T04:13:04.198Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: Unsupported algorithm: arcfour",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudl7mxt51bzh",
+    "timestamp": "2026-09-23T04:12:48.737Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mudl0lsejfi1v",
+    "timestamp": "2026-09-23T04:07:20.655Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.6] 동기화 실패: SSH 연결 실패 [10.101.241.6]: All configured authentication methods failed",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mudl0dpwk2hv8",
+    "timestamp": "2026-09-23T04:07:10.196Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "mucbh5uh07odt",
+    "timestamp": "2026-09-22T06:52:30.809Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.1] 동기화 실패: SSH 연결 실패 [10.101.241.1]: All configured authentication methods failed",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "mucbgy43edwje",
+    "timestamp": "2026-09-22T06:52:20.787Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc9kb8uwd8rq",
+    "timestamp": "2026-09-22T05:58:58.542Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S [10.101.241.1] 동기화 실패: SSH 연결 실패 [10.101.241.1]: All configured authentication methods failed",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc94zqsyewg3",
+    "timestamp": "2026-09-22T05:47:03.796Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93j1d2ytx5",
+    "timestamp": "2026-09-22T05:45:55.489Z",
+    "category": "SECURITY",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "Viewer 권한의 쓰기 시도 차단 (PUT /api/switch/ports/1)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93j177xc62",
+    "timestamp": "2026-09-22T05:45:55.483Z",
+    "category": "AUTH",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: viewer)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93j036grcm",
+    "timestamp": "2026-09-22T05:45:55.443Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CLI 콘솔 명령 실행: \"show vlan brief\"",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93izuxq1gn",
+    "timestamp": "2026-09-22T05:45:55.434Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 보안 설정 변경",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93izfrirs6",
+    "timestamp": "2026-09-22T05:45:55.419Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 등록: AA:BB:CC:11:22:33",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93iz0f1b2w",
+    "timestamp": "2026-09-22T05:45:55.404Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93iym148qk",
+    "timestamp": "2026-09-22T05:45:55.390Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "새 VLAN 생성: 200 (SECURE_ZONE)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93iy66cssx",
+    "timestamp": "2026-09-22T05:45:55.374Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CSRF 토큰 불일치 요청 차단 (POST /api/switch/vlans)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93ixzmbw6y",
+    "timestamp": "2026-09-22T05:45:55.367Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93iwwtlvme",
+    "timestamp": "2026-09-22T05:45:55.329Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "계정 잠금 상태 로그인 시도 차단 (300초 남음)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93iwq4s3se",
+    "timestamp": "2026-09-22T05:45:55.322Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93iwj3ys58",
+    "timestamp": "2026-09-22T05:45:55.315Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93iwb55bia",
+    "timestamp": "2026-09-22T05:45:55.307Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93iw4mx5wb",
+    "timestamp": "2026-09-22T05:45:55.300Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93ivwierx5",
+    "timestamp": "2026-09-22T05:45:55.292Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc93e1cwvgp7",
+    "timestamp": "2026-09-22T05:45:49.008Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/9 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93e0vrawh5",
+    "timestamp": "2026-09-22T05:45:48.991Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S Running-Config 텍스트 파싱 및 로드 완료 (포트수: 26)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc93e09gsrzk",
+    "timestamp": "2026-09-22T05:45:48.969Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc9036zr7niq",
+    "timestamp": "2026-09-22T05:43:14.987Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/9 설정 변경 (Admin: up, Mode: access, PoE: auto)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc9036fnrxub",
+    "timestamp": "2026-09-22T05:43:14.967Z",
+    "category": "CISCO",
+    "username": "admin",
+    "ip": "::1",
+    "action": "Cisco 2960-S Running-Config 텍스트 파싱 및 로드 완료 (포트수: 27)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc9035q4ds2q",
+    "timestamp": "2026-09-22T05:43:14.942Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8lu494jyp3",
+    "timestamp": "2026-09-22T05:32:10.041Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvh45x22b",
+    "timestamp": "2026-09-22T05:31:25.144Z",
+    "category": "SECURITY",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "Viewer 권한의 쓰기 시도 차단 (PUT /api/switch/ports/1)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvgw2jvvy",
+    "timestamp": "2026-09-22T05:31:25.136Z",
+    "category": "AUTH",
+    "username": "viewer",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: viewer)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvfrb1nlx",
+    "timestamp": "2026-09-22T05:31:25.095Z",
+    "category": "SYSTEM",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CLI 가상 콘솔 명령어 실행: \"show vlan brief\"",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvfi327iw",
+    "timestamp": "2026-09-22T05:31:25.086Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 보안 설정 변경 (Enabled: true, MaxMAC: 1, Action: shutdown)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvf325vrk",
+    "timestamp": "2026-09-22T05:31:25.071Z",
+    "category": "MAC",
+    "username": "admin",
+    "ip": "::1",
+    "action": "정적 MAC 주소 등록: AA:BB:CC:11:22:33 (VLAN 200, Port 3)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvenvlmbn",
+    "timestamp": "2026-09-22T05:31:25.055Z",
+    "category": "PORT",
+    "username": "admin",
+    "ip": "::1",
+    "action": "포트 Gi1/0/3 설정 변경 (Admin: up, Mode: access, PVID: 200)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kve6fw1oh",
+    "timestamp": "2026-09-22T05:31:25.038Z",
+    "category": "VLAN",
+    "username": "admin",
+    "ip": "::1",
+    "action": "새 VLAN 생성: 200 (SECURE_ZONE)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvdfqs5o8",
+    "timestamp": "2026-09-22T05:31:25.011Z",
+    "category": "SECURITY",
+    "username": "admin",
+    "ip": "::1",
+    "action": "CSRF 토큰 불일치 요청 차단 (POST /api/switch/vlans)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvd7xs49h",
+    "timestamp": "2026-09-22T05:31:25.003Z",
+    "category": "AUTH",
+    "username": "admin",
+    "ip": "::1",
+    "action": "로그인 성공 (Role: admin)",
+    "status": "SUCCESS",
+    "details": {}
+  },
+  {
+    "id": "muc8kvc4s25o8",
+    "timestamp": "2026-09-22T05:31:24.964Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "계정 잠금 상태 로그인 시도 차단 (300초 남음)",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvbxfricd",
+    "timestamp": "2026-09-22T05:31:24.957Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvbqz23ml",
+    "timestamp": "2026-09-22T05:31:24.950Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvbjnxqwy",
+    "timestamp": "2026-09-22T05:31:24.943Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvbbw3cdp",
+    "timestamp": "2026-09-22T05:31:24.935Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  },
+  {
+    "id": "muc8kvb4ubo1g",
+    "timestamp": "2026-09-22T05:31:24.928Z",
+    "category": "AUTH",
+    "username": "testuser_brute",
+    "ip": "::1",
+    "action": "로그인 실패: 자격증명 불일치",
+    "status": "FAILURE",
+    "details": {}
+  }
+]

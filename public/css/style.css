@@ -1,0 +1,1697 @@
+/* public/css/style.css */
+/* Modern Enterprise Dark UI for L2 Switch Web Console */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+    --bg-main: #0a0e17;
+    --bg-surface: #111827;
+    --bg-card: rgba(17, 24, 39, 0.85);
+    --bg-card-hover: rgba(31, 41, 55, 0.9);
+    --border-color: #1f293d;
+    --border-light: #2d3748;
+
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+
+    --cyan-accent: #00f2fe;
+    --blue-accent: #3b82f6;
+    --emerald-green: #10b981;
+    --amber-warning: #f59e0b;
+    --rose-danger: #ef4444;
+    --purple-accent: #8b5cf6;
+
+    --glow-cyan: 0 0 15px rgba(0, 242, 254, 0.4);
+    --glow-green: 0 0 12px rgba(16, 185, 129, 0.5);
+    --glow-amber: 0 0 12px rgba(245, 158, 11, 0.5);
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.25s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0d131f;
+}
+::-webkit-scrollbar-thumb {
+    background: #23314a;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334466;
+}
+
+/* ============================================================ */
+/* Top Header Bar */
+/* ============================================================ */
+header.app-header {
+    background: rgba(17, 24, 39, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.brand-logo {
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, var(--cyan-accent), var(--blue-accent));
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #0b0f19;
+    font-size: 1.1rem;
+    box-shadow: var(--glow-cyan);
+}
+
+.brand-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand-title span.badge-secure {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    color: var(--emerald-green);
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.system-quick-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.quick-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.quick-item .val {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.user-profile-section {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.role-badge {
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.role-badge.admin {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: var(--rose-danger);
+}
+.role-badge.operator {
+    background: rgba(59, 130, 246, 0.15);
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    color: var(--blue-accent);
+}
+.role-badge.viewer {
+    background: rgba(148, 163, 184, 0.15);
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    color: var(--text-secondary);
+}
+
+/* ============================================================ */
+/* App Layout: Sidebar + Main Content */
+/* ============================================================ */
+.app-container {
+    display: flex;
+    flex: 1;
+}
+
+nav.app-sidebar {
+    width: 240px;
+    background: #0d121d;
+    border-right: 1px solid var(--border-color);
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.nav-section-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    margin: 14px 10px 6px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    border: 1px solid transparent;
+}
+
+.nav-item:hover {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-primary);
+}
+
+.nav-item.active {
+    background: linear-gradient(90deg, rgba(0, 242, 254, 0.12), rgba(59, 130, 246, 0.05));
+    border-color: rgba(0, 242, 254, 0.3);
+    color: var(--cyan-accent);
+    font-weight: 600;
+}
+
+.nav-item svg {
+    width: 18px;
+    height: 18px;
+    opacity: 0.8;
+}
+.nav-item.active svg {
+    opacity: 1;
+    stroke: var(--cyan-accent);
+}
+
+main.app-main {
+    flex: 1;
+    padding: 24px 32px;
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* ============================================================ */
+/* Hardware Switch Faceplate (1U Rack Visualizer) */
+/* ============================================================ */
+.switch-rack-chassis {
+    background: linear-gradient(180deg, #1e2533 0%, #131822 50%, #0d1118 100%);
+    border: 2px solid #2d384e;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.switch-chassis-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 12px;
+}
+
+.chassis-model-info {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.chassis-brand {
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    color: #e2e8f0;
+}
+
+.chassis-model {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--cyan-accent);
+    font-weight: 600;
+}
+
+.chassis-status-leds {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.status-led-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.chassis-led-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #334155;
+}
+.chassis-led-dot.green {
+    background: var(--emerald-green);
+    box-shadow: var(--glow-green);
+}
+.chassis-led-dot.amber {
+    background: var(--amber-warning);
+    box-shadow: var(--glow-amber);
+}
+.chassis-led-dot.blink {
+    animation: ledPulse 1s infinite alternate;
+}
+
+@keyframes ledPulse {
+    0% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+/* Ports Panel Layout */
+.switch-ports-panel {
+    display: flex;
+    gap: 20px;
+    background: #090c12;
+    border: 1px solid #1a2233;
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+    overflow-x: auto;
+    align-items: center;
+}
+
+.rj45-bank {
+    display: flex;
+    gap: 8px;
+}
+
+.port-pair-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Port Socket Card */
+.port-socket {
+    width: 44px;
+    height: 48px;
+    background: #141b27;
+    border: 1px solid #253147;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: all var(--transition-fast);
+}
+
+.port-socket:hover {
+    border-color: var(--cyan-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 242, 254, 0.2);
+}
+
+.port-socket.selected {
+    border-color: var(--cyan-accent);
+    background: #19273f;
+    box-shadow: 0 0 0 2px rgba(0, 242, 254, 0.5);
+}
+
+.port-socket.admin-down {
+    opacity: 0.45;
+    background: #0e121a;
+}
+
+.port-leds-row {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.port-led {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1f2937;
+}
+
+.port-led.link-1g {
+    background: var(--emerald-green);
+    box-shadow: 0 0 6px var(--emerald-green);
+}
+.port-led.link-10g {
+    background: var(--cyan-accent);
+    box-shadow: 0 0 6px var(--cyan-accent);
+}
+.port-led.link-100m {
+    background: var(--amber-warning);
+    box-shadow: 0 0 6px var(--amber-warning);
+}
+.port-led.act-blink {
+    animation: portActBlink 0.3s infinite alternate;
+}
+
+@keyframes portActBlink {
+    0% { opacity: 0.15; }
+    100% { opacity: 1; }
+}
+
+.port-graphic-hole {
+    width: 24px;
+    height: 18px;
+    background: #080b10;
+    border: 1px solid #1a2230;
+    border-radius: 3px;
+    position: relative;
+}
+
+.port-graphic-hole::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    right: 4px;
+    height: 3px;
+    background: repeating-linear-gradient(90deg, #d97706 0, #d97706 2px, transparent 2px, transparent 4px);
+}
+
+.port-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-secondary);
+}
+
+/* SFP+ Bank */
+.sfp-bank-divider {
+    width: 1px;
+    height: 90px;
+    background: #253147;
+    margin: 0 4px;
+}
+
+.sfp-bank {
+    display: flex;
+    gap: 8px;
+}
+
+.port-socket.sfp {
+    border-color: #3b4d6e;
+    background: #182235;
+}
+.port-socket.sfp .port-graphic-hole {
+    border-color: #38bdf8;
+    background: #0c1524;
+}
+
+/* ============================================================ */
+/* Stack Switch Selector Tabs & 48P Bank Styling */
+/* ============================================================ */
+.stack-selector-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #0b0f19;
+    border: 1px solid #1e283d;
+    border-radius: var(--radius-md);
+    padding: 10px 18px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+
+.stack-bar-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.stack-bar-title .stack-icon {
+    font-size: 1.1rem;
+    color: var(--cyan-accent);
+}
+
+.stack-tabs-wrap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.stack-tab-btn {
+    background: #141c2c;
+    border: 1px solid #25334c;
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all var(--transition-fast);
+}
+
+.stack-tab-btn:hover {
+    border-color: var(--cyan-accent);
+    color: var(--text-primary);
+    background: #1a253a;
+}
+
+.stack-tab-btn.active {
+    background: linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%);
+    border-color: var(--cyan-accent);
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 242, 254, 0.25);
+}
+
+.stack-unit-badge {
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--cyan-accent);
+}
+
+.stack-poe-stat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+/* 48-port Bank Width Adjustment */
+.bank-48p {
+    display: flex;
+    gap: 6px;
+}
+
+.bank-48p .port-socket {
+    width: 38px;
+    height: 48px;
+}
+
+.bank-48p .port-graphic-hole {
+    width: 22px;
+}
+
+/* PoE Active LED glow */
+.port-led.link-poe-active {
+    background: var(--amber-warning);
+    box-shadow: 0 0 8px #f59e0b;
+}
+
+.port-led.admin-disabled {
+    background: #475569;
+}
+
+.port-socket.link-up {
+    border-color: rgba(16, 185, 129, 0.4);
+}
+
+.table-filter-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.filter-pill-group {
+    display: flex;
+    gap: 6px;
+}
+
+.filter-pill {
+    padding: 6px 12px;
+    border-radius: var(--radius-sm);
+    background: #141b27;
+    border: 1px solid #253147;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.filter-pill:hover {
+    border-color: var(--cyan-accent);
+    color: var(--text-primary);
+}
+
+.filter-pill.active {
+    background: rgba(0, 242, 254, 0.15);
+    border-color: var(--cyan-accent);
+    color: var(--cyan-accent);
+    font-weight: 600;
+}
+
+/* ============================================================ */
+/* Dashboard Overview Cards */
+/* ============================================================ */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+}
+
+.metric-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: var(--transition-fast);
+}
+
+.metric-card:hover {
+    border-color: var(--border-light);
+    transform: translateY(-2px);
+}
+
+.metric-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.metric-header svg {
+    width: 20px;
+    height: 20px;
+    stroke: var(--cyan-accent);
+}
+
+.metric-value-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: -0.03em;
+}
+
+.metric-sub {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Progress bar inside cards */
+.progress-bar-wrap {
+    width: 100%;
+    height: 6px;
+    background: #1f293d;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--cyan-accent), var(--blue-accent));
+    border-radius: 3px;
+    transition: width 0.5s ease;
+}
+
+/* ============================================================ */
+/* Tables & Cards */
+/* ============================================================ */
+.content-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title-wrap h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card-title-wrap p {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+.card-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Data Tables */
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+
+table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+table.data-table th {
+    background: #0e1420;
+    color: var(--text-secondary);
+    padding: 12px 16px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
+}
+
+table.data-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
+    white-space: nowrap;
+}
+
+table.data-table tr:hover td {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.badge-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+}
+.badge-tag.green {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--emerald-green);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+.badge-tag.gray {
+    background: rgba(148, 163, 184, 0.12);
+    color: var(--text-secondary);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+}
+.badge-tag.blue {
+    background: rgba(59, 130, 246, 0.15);
+    color: var(--blue-accent);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+.badge-tag.amber {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--amber-warning);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+.badge-tag.red {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--rose-danger);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--cyan-accent), var(--blue-accent));
+    color: #080c14;
+    border: none;
+    box-shadow: var(--glow-cyan);
+}
+.btn-primary:hover {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background: #1a2233;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+.btn-secondary:hover {
+    background: #253147;
+    border-color: var(--border-light);
+}
+
+.btn-danger {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--rose-danger);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+.btn-danger:hover {
+    background: var(--rose-danger);
+    color: #fff;
+}
+
+.btn-sm {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    filter: none;
+    transform: none;
+}
+
+/* Forms & Inputs */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.form-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.form-input, .form-select, .form-textarea {
+    background: #0d121d;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    transition: var(--transition-fast);
+    font-family: inherit;
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+    outline: none;
+    border-color: var(--cyan-accent);
+    box-shadow: 0 0 0 2px rgba(0, 242, 254, 0.2);
+}
+
+.form-input[type="number"] {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* ============================================================ */
+/* Virtual CLI Terminal Simulator */
+/* ============================================================ */
+.terminal-window {
+    background: #070a10;
+    border: 1px solid #1a2436;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+}
+
+.terminal-header {
+    background: #111722;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1a2436;
+}
+
+.terminal-dots {
+    display: flex;
+    gap: 6px;
+}
+.term-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.term-dot.red { background: #ef4444; }
+.term-dot.amber { background: #f59e0b; }
+.term-dot.green { background: #10b981; }
+
+.terminal-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.terminal-body {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #e2e8f0;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.terminal-prompt-line {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #0a0e17;
+    border-top: 1px solid #1a2436;
+}
+
+.terminal-prompt-label {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--cyan-accent);
+    font-weight: 700;
+    margin-right: 8px;
+    font-size: 0.85rem;
+    user-select: none;
+}
+
+.terminal-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+}
+
+/* ============================================================ */
+/* Drawer & Modal */
+/* ============================================================ */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-card {
+    background: #111722;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    width: 90%;
+    max-width: 520px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    padding: 14px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    background: #0d121c;
+}
+
+/* Toast Notifications */
+.toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+.toast {
+    background: #151d2a;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 12px 18px;
+    border-radius: var(--radius-sm);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: toastSlideIn 0.25s ease;
+}
+
+.toast.success { border-left: 4px solid var(--emerald-green); }
+.toast.error { border-left: 4px solid var(--rose-danger); }
+.toast.info { border-left: 4px solid var(--cyan-accent); }
+
+@keyframes toastSlideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+    .app-container {
+        flex-direction: column;
+    }
+    nav.app-sidebar {
+        width: 100%;
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 8px;
+    }
+    .nav-section-title {
+        display: none;
+    }
+}
+
+/* ============================================================ */
+/* VLAN IP Subnets Grid & Cards                                 */
+/* ============================================================ */
+.vlan-subnets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 16px;
+    padding: 0 20px 16px 20px;
+}
+
+.vlan-subnet-card {
+    background: linear-gradient(145deg, #131b2c, #0e1422);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 16px 18px;
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.vlan-subnet-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 242, 254, 0.4);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 12px rgba(0, 242, 254, 0.15);
+}
+
+.vlan-subnet-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--cyan-accent), var(--blue-accent));
+}
+
+.vlan-subnet-card.is-svi::before {
+    background: linear-gradient(90deg, var(--purple-accent), var(--cyan-accent));
+}
+
+.vlan-subnet-card.is-default::before {
+    background: linear-gradient(90deg, #64748b, #94a3b8);
+}
+
+.vlan-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.vlan-badge-pill {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(59, 130, 246, 0.15);
+    color: var(--blue-accent);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.vlan-subnet-card.is-svi .vlan-badge-pill {
+    background: rgba(139, 92, 246, 0.15);
+    color: #a78bfa;
+    border-color: rgba(139, 92, 246, 0.3);
+}
+
+.vlan-card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.vlan-card-desc {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    line-height: 1.4;
+    min-height: 1.4em;
+}
+
+.vlan-card-ip-box {
+    background: #090d16;
+    border: 1px solid #1a2438;
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    margin-bottom: 12px;
+}
+
+.vlan-card-net-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vlan-card-net-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--cyan-accent);
+}
+
+.vlan-card-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.8rem;
+}
+
+.vlan-card-stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vlan-stat-key {
+    color: var(--text-secondary);
+}
+
+.vlan-stat-val {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.vlan-stat-val.highlight {
+    color: var(--emerald-green);
+    font-weight: 600;
+}
+
+.vlan-card-footer {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #192233;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ============================================================ */
+/* 장애 경보 및 시간대별 보고서 전용 스타일                      */
+/* ============================================================ */
+#tab-alerts .card {
+    background: rgba(17, 24, 39, 0.95);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+@media print {
+    body * {
+        visibility: hidden !important;
+    }
+    #incident-report-modal,
+    #incident-report-modal * {
+        visibility: visible !important;
+    }
+    #incident-report-modal {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #ffffff !important;
+        color: #1e293b !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+    #incident-report-modal .modal-card {
+        background: #ffffff !important;
+        color: #1e293b !important;
+        box-shadow: none !important;
+        border: 1px solid #cbd5e1 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    #incident-report-modal .modal-footer,
+    #incident-report-modal .modal-close {
+        display: none !important;
+    }
+}
+
+/* ============================================================ */
+/* 다중 장비 선택 및 스위처 스타일                              */
+/* ============================================================ */
+.device-switcher-box {
+    transition: var(--transition-normal);
+}
+.device-switcher-box:hover {
+    border-color: var(--cyan-accent);
+    box-shadow: 0 0 12px rgba(0, 242, 254, 0.2);
+}
+#header-device-selector option {
+    background: #0d1527;
+    color: var(--text-primary);
+    padding: 8px;
+}
+.btn-xs {
+    padding: 4px 8px;
+    font-size: 0.72rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* 사이드바 최상단 장비 선택 카드 */
+.sidebar-device-card {
+    background: linear-gradient(135deg, rgba(0, 242, 254, 0.08) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border: 1px solid rgba(0, 242, 254, 0.25);
+    border-radius: var(--radius-md);
+    padding: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: var(--transition-normal);
+}
+.sidebar-device-card:hover {
+    border-color: rgba(0, 242, 254, 0.5);
+    box-shadow: 0 4px 16px rgba(0, 242, 254, 0.15);
+}
+.sidebar-device-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.sidebar-device-selector-wrapper select {
+    width: 100%;
+    background: #090d16;
+    border: 1px solid rgba(0, 242, 254, 0.4);
+    color: var(--cyan-accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    transition: var(--transition-fast);
+}
+.sidebar-device-selector-wrapper select:focus {
+    border-color: var(--cyan-accent);
+    box-shadow: 0 0 8px rgba(0, 242, 254, 0.4);
+}
+.sidebar-device-actions {
+    display: flex;
+    gap: 6px;
+}
+
+/* 메인 화면 상단 장비 퀵 스위처 배너 */
+.quick-device-banner {
+    background: linear-gradient(90deg, #111827 0%, #0d1527 100%);
+    border: 1px solid rgba(0, 242, 254, 0.25);
+    border-radius: var(--radius-md);
+    padding: 12px 18px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+.quick-device-banner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quick-device-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.quick-device-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    padding: 6px 14px;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    user-select: none;
+}
+.quick-device-chip:hover {
+    background: rgba(0, 242, 254, 0.08);
+    border-color: rgba(0, 242, 254, 0.4);
+    color: var(--text-primary);
+    transform: translateY(-1px);
+}
+.quick-device-chip.active {
+    background: linear-gradient(90deg, rgba(0, 242, 254, 0.18) 0%, rgba(59, 130, 246, 0.12) 100%);
+    border-color: var(--cyan-accent);
+    color: var(--cyan-accent);
+    font-weight: 700;
+    box-shadow: 0 0 12px rgba(0, 242, 254, 0.25);
+}
+.quick-device-chip .chip-name {
+    font-weight: 700;
+}
+.quick-device-chip .chip-ip {
+    color: var(--emerald-green);
+    font-size: 0.75rem;
+}
+.quick-device-chip .chip-ports {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+
+/* ========================================================================== */
+/* 실시간 전원 장애 경보 배너 (Global Power Outage Banner)                     */
+/* ========================================================================== */
+.global-power-alert-banner {
+    position: sticky;
+    top: 56px;
+    z-index: 900;
+    background: linear-gradient(90deg, rgba(239, 68, 68, 0.22) 0%, rgba(185, 28, 28, 0.32) 50%, rgba(249, 115, 22, 0.22) 100%);
+    border-bottom: 2px solid #ef4444;
+    box-shadow: 0 4px 20px rgba(239, 68, 68, 0.35);
+    backdrop-filter: blur(12px);
+    padding: 10px 24px;
+    animation: bannerSlideDown 0.3s ease-out;
+}
+@keyframes bannerSlideDown {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.power-banner-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.power-banner-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(239, 68, 68, 0.5);
+    flex-shrink: 0;
+    animation: pulseIconGlow 1.5s infinite alternate;
+}
+@keyframes pulseIconGlow {
+    from { box-shadow: 0 0 4px rgba(239, 68, 68, 0.4); transform: scale(1); }
+    to { box-shadow: 0 0 16px rgba(239, 68, 68, 0.9); transform: scale(1.05); }
+}
+
+.power-banner-info {
+    flex: 1;
+    min-width: 260px;
+}
+
+.power-banner-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.power-banner-desc {
+    font-size: 0.8rem;
+    color: #fca5a5;
+    margin-top: 2px;
+}
+
+.pulse-red-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: #ef4444;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    animation: pulseRedBadge 1.4s infinite;
+}
+@keyframes pulseRedBadge {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.power-banner-btns {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* ========================================================================== */
+/* 상단 헤더 알림 센터 (Notification Center)                                    */
+/* ========================================================================== */
+.notification-center-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.notif-count-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-weight: 800;
+    min-width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 9px;
+    padding: 0 4px;
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.8);
+    pointer-events: none;
+    animation: pulseBadge 1.8s infinite;
+}
+@keyframes pulseBadge {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+
+.notification-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 380px;
+    background: #0f1624;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(0, 242, 254, 0.1);
+    z-index: 1100;
+    overflow: hidden;
+    animation: dropdownFadeIn 0.2s ease-out;
+}
+@keyframes dropdownFadeIn {
+    from { opacity: 0; transform: translateY(-6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.notif-dropdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.notif-dropdown-body {
+    max-height: 380px;
+    overflow-y: auto;
+}
+
+.notif-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: background 0.15s;
+    cursor: pointer;
+}
+.notif-item:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+.notif-item.unread-critical {
+    background: rgba(239, 68, 68, 0.08);
+    border-left: 3px solid #ef4444;
+}
+
+.notif-item-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+.notif-item-icon.red {
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: #ef4444;
+}
+.notif-item-icon.amber {
+    background: rgba(245, 158, 11, 0.2);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    color: #f59e0b;
+}
+
+.notif-item-content {
+    flex: 1;
+    min-width: 0;
+}
+.notif-item-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notif-item-desc {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-top: 3px;
+    line-height: 1.35;
+    word-break: break-all;
+}
+.notif-item-time {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 4px;
+}
+
+/* ========================================================================== */
+/* 대시보드 전체 장비 전원 헬스 그리드 (Fleet Power Health)                    */
+/* ========================================================================== */
+.dashboard-fleet-power-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.fleet-power-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 14px 16px;
+    transition: var(--transition-fast);
+    position: relative;
+    overflow: hidden;
+}
+.fleet-power-card:hover {
+    border-color: rgba(0, 242, 254, 0.35);
+    background: rgba(255, 255, 255, 0.04);
+}
+.fleet-power-card.power-normal {
+    border-left: 4px solid #10b981;
+}
+.fleet-power-card.power-outage {
+    border-left: 4px solid #ef4444;
+    background: rgba(239, 68, 68, 0.07);
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.2);
+}
+.fleet-power-card.power-poe-fault {
+    border-left: 4px solid #f59e0b;
+    background: rgba(245, 158, 11, 0.05);
+}
+
+.fleet-power-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.fleet-power-hostname {
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+}
+.fleet-power-ip {
+    font-size: 0.78rem;
+    color: var(--cyan-accent);
+    font-family: 'JetBrains Mono', monospace;
+}
+.fleet-power-meta {
+    font-size: 0.74rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+.fleet-power-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.power-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 12px;
+    letter-spacing: 0.3px;
+}
+.power-status-pill.on {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+.power-status-pill.off {
+    background: rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.5);
+    animation: pulseRedBadge 1.5s infinite;
+}
+
+

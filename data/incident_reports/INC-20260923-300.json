@@ -1,0 +1,76 @@
+{
+  "id": "INC-20260923-300",
+  "timestamp": "2026-09-23T05:21:47.489Z",
+  "timeKst": "2026-09-23 14:21:47 KST",
+  "triggerSource": "System-Monitor Live Simulation",
+  "severity": "HIGH",
+  "incidentType": "LINK_DOWN",
+  "title": "[장애] 스택 #2 Gi2/0/14 인터페이스 비정상 링크 다운(Link DOWN) 발생",
+  "hostname": "OFFICE_2F_SW_1",
+  "switchModel": "Cisco Catalyst 2960-S PoE+ (Stackable)",
+  "switchIp": "10.101.241.6",
+  "switchNum": 2,
+  "portName": "Gi2/0/14",
+  "portDesc": "PC-2F-기획팀-14 (LG Gram)",
+  "vlanId": 2,
+  "vlanName": "USER",
+  "clientInfo": {
+    "mac": "48:9E:BD:56:E7:EB",
+    "ipAddress": "10.101.2.144",
+    "vlanId": 2,
+    "portId": 66,
+    "portName": "Gi2/0/14",
+    "switchNum": 2,
+    "deviceName": "PC-2F-기획팀-14 (LG Gram)",
+    "vendor": "Network Device",
+    "type": "dynamic",
+    "interfaceType": "access",
+    "age": 107
+  },
+  "timeline": [
+    {
+      "time": "14:20:32",
+      "event": "정상 링크 유지 및 트래픽 송수신",
+      "syslog": "%LINK-3-UPDOWN: Interface Gi2/0/14, state UP",
+      "details": "PC-2F-기획팀-14 (LG Gram) (IP: 10.101.2.144, MAC: 48:9E:BD:56:E7:EB)와 정상 통신 상태 유지 (Rx: 450Mbps / Tx: 120Mbps, Link UP)",
+      "level": "NORMAL"
+    },
+    {
+      "time": "14:21:17",
+      "event": "물리 계층(L1) 신호 불안정 및 패킷 드롭 감지",
+      "syslog": "%ETHINT-4-FLAPPING: Interface Gi2/0/14 link carrier transitions detected",
+      "details": "물리 계층 UTP 케이블 접촉 불량 또는 단말기기 전원 종료 징후 감지",
+      "level": "WARNING"
+    },
+    {
+      "time": "14:21:39",
+      "event": "인터페이스 비정상 링크 다운 발생",
+      "syslog": "%LINEPROTO-5-UPDOWN: Line protocol on Interface Gi2/0/14, changed state to down",
+      "details": "스위치 포트 Gi2/0/14의 캐리어 신호가 소실되어 Link DOWN으로 전환됨. 서비스 통신 단절",
+      "level": "CRITICAL"
+    },
+    {
+      "time": "14:21:47",
+      "event": "장애 감지 및 담당자 긴급 보고서 발송",
+      "syslog": "%ALERT-1-INCIDENT_REPORT: Detailed incident report dispatched to netadmin",
+      "details": "네트워크 관제 엔진이 링크 소실을 감지하고 시간대별 분석 보고서를 작성하여 비상 발송함",
+      "level": "ALERT"
+    }
+  ],
+  "rootCause": "포트 Gi2/0/14의 UTP 패치 케이블 접촉 불량, 단말기기 전원 종료 또는 스위치 인터페이스 물리 링크 캐리어 소실이 확인됨.",
+  "impactAssessment": "VLAN 2 대역 내 단말 [PC-2F-기획팀-14 (LG Gram)] 유선 네트워크 통신 일시 단절 및 관제 알림",
+  "remediation": [
+    "1단계: 포트 Gi2/0/14의 물리 패치 케이블 결착 상태 및 패치패널 포트 LED 상태 점검",
+    "2단계: 연결 단말 [PC-2F-기획팀-14 (LG Gram)] (IP: 10.101.2.144, MAC: 48:9E:BD:56:E7:EB) 전원 상태 및 랜카드 이상 여부 확인",
+    "3단계: 스위치 웹 콘솔 접속 후 인터페이스 상세 설정에서 Admin 상태(no shutdown) 또는 포트 보안 err-disable 복구",
+    "4단계: 지속적 문제 발생 시 UTP Cat6 라인 교체 또는 예비 포트로 패칭 전환 조치"
+  ],
+  "consoleUrl": "http://localhost:8080",
+  "htmlContent": "\n<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>[장애] 스택 #2 Gi2&#x2F;0&#x2F;14 인터페이스 비정상 링크 다운(Link DOWN) 발생</title>\n</head>\n<body style=\"margin: 0; padding: 20px; background-color: #0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #f8fafc;\">\n    <div style=\"max-width: 680px; margin: 0 auto; background: #111827; border: 1px solid #1f293d; border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.6);\">\n        \n        <!-- 상단 헤더 배너 -->\n        <div style=\"background: linear-gradient(135deg, #ef4444, #1e1b4b); padding: 20px 24px; border-bottom: 2px solid #ef4444;\">\n            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;\">\n                <span style=\"font-size: 11px; font-weight: 800; letter-spacing: 1px; color: #ffffff; background: rgba(0,0,0,0.3); padding: 4px 10px; border-radius: 20px; text-transform: uppercase;\">\n                    HIGH INCIDENT ALERT\n                </span>\n                <span style=\"font-size: 12px; color: #e2e8f0; font-family: monospace;\">보고서 ID: INC-20260923-300</span>\n            </div>\n            <h1 style=\"margin: 0; font-size: 19px; font-weight: 700; color: #ffffff; line-height: 1.4;\">\n                [장애] 스택 #2 Gi2&#x2F;0&#x2F;14 인터페이스 비정상 링크 다운(Link DOWN) 발생\n            </h1>\n            <p style=\"margin: 6px 0 0 0; font-size: 12px; color: #cbd5e1;\">\n                발생 시각: 2026-09-23 14:21:47 KST | 시스템 호스트명: OFFICE_2F_SW_1\n            </p>\n        </div>\n\n        <div style=\"padding: 24px;\">\n            <!-- 1. 핵심 요약 정보 그리드 -->\n            <div style=\"background: #0d131f; border: 1px solid #1e293b; border-radius: 8px; padding: 16px; margin-bottom: 20px;\">\n                <table style=\"width: 100%; border-collapse: collapse; font-size: 13px;\">\n                    <tr>\n                        <td style=\"padding: 6px 0; color: #94a3b8; width: 35%;\">대상 네트워크 장비:</td>\n                        <td style=\"padding: 6px 0; font-weight: 600; color: #ffffff;\">OFFICE_2F_SW_1 (Cisco Catalyst 2960-S PoE+ (Stackable))</td>\n                    </tr>\n                    <tr>\n                        <td style=\"padding: 6px 0; color: #94a3b8;\">스위치 관리 IP:</td>\n                        <td style=\"padding: 6px 0; font-family: monospace; font-weight: bold; color: #00f2fe;\">10.101.241.6</td>\n                    </tr>\n                    <tr>\n                        <td style=\"padding: 6px 0; color: #94a3b8;\">장애 발생 인터페이스:</td>\n                        <td style=\"padding: 6px 0; font-weight: bold; color: #ef4444; font-size: 15px;\">\n                            Gi2&#x2F;0&#x2F;14 <span style=\"font-size: 12px; font-weight: normal; color: #94a3b8;\">(스위치 #2)</span>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td style=\"padding: 6px 0; color: #94a3b8;\">소속 VLAN 대역:</td>\n                        <td style=\"padding: 6px 0; color: #38bdf8;\">VLAN 2 (USER)</td>\n                    </tr>\n                </table>\n            </div>\n\n            <!-- 2. 연결된 클라이언트 단말 분석 박스 -->\n            <div style=\"background: rgba(0, 242, 254, 0.04); border: 1px solid rgba(0, 242, 254, 0.25); border-radius: 8px; padding: 16px; margin-bottom: 24px;\">\n                <div style=\"font-size: 13px; font-weight: 700; color: #00f2fe; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;\">\n                    💻 해당 포트 연결 클라이언트 단말 (Client) 정보\n                </div>\n                <table style=\"width: 100%; border-collapse: collapse; font-size: 12px;\">\n                    <tr>\n                        <td style=\"padding: 4px 0; color: #94a3b8; width: 35%;\">클라이언트 IPv4:</td>\n                        <td style=\"padding: 4px 0; font-family: monospace; font-weight: bold; color: #38bdf8; font-size: 14px;\">\n                            10.101.2.144\n                        </td>\n                    </tr>\n                    <tr>\n                        <td style=\"padding: 4px 0; color: #94a3b8;\">물리 MAC 주소:</td>\n                        <td style=\"padding: 4px 0; font-family: monospace; font-weight: 600; color: #ffffff;\">48:9E:BD:56:E7:EB</td>\n                    </tr>\n                    <tr>\n                        <td style=\"padding: 4px 0; color: #94a3b8;\">장비 제조사 (Vendor):</td>\n                        <td style=\"padding: 4px 0; color: #10b981; font-weight: 500;\">Network Device</td>\n                    </tr>\n                    <tr>\n                        <td style=\"padding: 4px 0; color: #94a3b8;\">단말 식별 장비명:</td>\n                        <td style=\"padding: 4px 0; color: #f1f5f9; font-weight: 600;\">PC-2F-기획팀-14 (LG Gram)</td>\n                    </tr>\n                </table>\n            </div>\n\n            <!-- 3. 시간대별 상세 타임라인 (Chronological Timeline) -->\n            <div style=\"margin-bottom: 24px;\">\n                <div style=\"font-size: 14px; font-weight: 700; color: #ffffff; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;\">\n                    ⏱️ 시간대별 상세 장애 발생 내역 (Chronological Timeline)\n                </div>\n                <div style=\"background: #0d131f; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden;\">\n                    <table style=\"width: 100%; border-collapse: collapse; font-size: 12px; text-align: left;\">\n                        <thead>\n                            <tr style=\"background: #162032; color: #94a3b8;\">\n                                <th style=\"padding: 8px 12px; width: 90px;\">발생시각</th>\n                                <th style=\"padding: 8px 12px;\">단계별 이벤트 및 Cisco Syslog 상세 내역</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            \n            <tr>\n                <td style=\"padding: 10px 12px; font-family: monospace; font-weight: bold; color: #94a3b8; border-bottom: 1px solid #1e293b; white-space: nowrap;\">14:20:32</td>\n                <td style=\"padding: 10px 12px; border-bottom: 1px solid #1e293b;\">\n                    <div style=\"font-weight: bold; color: #10b981; margin-bottom: 2px;\">\n                        [NORMAL] 정상 링크 유지 및 트래픽 송수신\n                    </div>\n                    <div style=\"font-family: monospace; font-size: 11px; color: #38bdf8; background: #0c1322; padding: 4px 8px; border-radius: 4px; margin-bottom: 4px;\">\n                        %LINK-3-UPDOWN: Interface Gi2&#x2F;0&#x2F;14, state UP\n                    </div>\n                    <div style=\"font-size: 12px; color: #cbd5e1;\">PC-2F-기획팀-14 (LG Gram) (IP: 10.101.2.144, MAC: 48:9E:BD:56:E7:EB)와 정상 통신 상태 유지 (Rx: 450Mbps &#x2F; Tx: 120Mbps, Link UP)</div>\n                </td>\n            </tr>\n        \n            <tr>\n                <td style=\"padding: 10px 12px; font-family: monospace; font-weight: bold; color: #94a3b8; border-bottom: 1px solid #1e293b; white-space: nowrap;\">14:21:17</td>\n                <td style=\"padding: 10px 12px; border-bottom: 1px solid #1e293b;\">\n                    <div style=\"font-weight: bold; color: #f59e0b; margin-bottom: 2px;\">\n                        [WARNING] 물리 계층(L1) 신호 불안정 및 패킷 드롭 감지\n                    </div>\n                    <div style=\"font-family: monospace; font-size: 11px; color: #38bdf8; background: #0c1322; padding: 4px 8px; border-radius: 4px; margin-bottom: 4px;\">\n                        %ETHINT-4-FLAPPING: Interface Gi2&#x2F;0&#x2F;14 link carrier transitions detected\n                    </div>\n                    <div style=\"font-size: 12px; color: #cbd5e1;\">물리 계층 UTP 케이블 접촉 불량 또는 단말기기 전원 종료 징후 감지</div>\n                </td>\n            </tr>\n        \n            <tr>\n                <td style=\"padding: 10px 12px; font-family: monospace; font-weight: bold; color: #94a3b8; border-bottom: 1px solid #1e293b; white-space: nowrap;\">14:21:39</td>\n                <td style=\"padding: 10px 12px; border-bottom: 1px solid #1e293b;\">\n                    <div style=\"font-weight: bold; color: #ef4444; margin-bottom: 2px;\">\n                        [CRITICAL] 인터페이스 비정상 링크 다운 발생\n                    </div>\n                    <div style=\"font-family: monospace; font-size: 11px; color: #38bdf8; background: #0c1322; padding: 4px 8px; border-radius: 4px; margin-bottom: 4px;\">\n                        %LINEPROTO-5-UPDOWN: Line protocol on Interface Gi2&#x2F;0&#x2F;14, changed state to down\n                    </div>\n                    <div style=\"font-size: 12px; color: #cbd5e1;\">스위치 포트 Gi2&#x2F;0&#x2F;14의 캐리어 신호가 소실되어 Link DOWN으로 전환됨. 서비스 통신 단절</div>\n                </td>\n            </tr>\n        \n            <tr>\n                <td style=\"padding: 10px 12px; font-family: monospace; font-weight: bold; color: #94a3b8; border-bottom: 1px solid #1e293b; white-space: nowrap;\">14:21:47</td>\n                <td style=\"padding: 10px 12px; border-bottom: 1px solid #1e293b;\">\n                    <div style=\"font-weight: bold; color: #00f2fe; margin-bottom: 2px;\">\n                        [ALERT] 장애 감지 및 담당자 긴급 보고서 발송\n                    </div>\n                    <div style=\"font-family: monospace; font-size: 11px; color: #38bdf8; background: #0c1322; padding: 4px 8px; border-radius: 4px; margin-bottom: 4px;\">\n                        %ALERT-1-INCIDENT_REPORT: Detailed incident report dispatched to netadmin\n                    </div>\n                    <div style=\"font-size: 12px; color: #cbd5e1;\">네트워크 관제 엔진이 링크 소실을 감지하고 시간대별 분석 보고서를 작성하여 비상 발송함</div>\n                </td>\n            </tr>\n        \n                        </tbody>\n                    </table>\n                </div>\n            </div>\n\n            <!-- 4. 근본 원인 및 네트워크 영향도 평가 -->\n            <div style=\"background: #131b2c; border-left: 4px solid #ef4444; padding: 14px 16px; border-radius: 4px; margin-bottom: 24px; font-size: 13px;\">\n                <div style=\"font-weight: 700; color: #ffffff; margin-bottom: 6px;\">🔍 추정 원인 및 서비스 영향도</div>\n                <p style=\"margin: 0 0 8px 0; color: #cbd5e1; line-height: 1.5;\">포트 Gi2&#x2F;0&#x2F;14의 UTP 패치 케이블 접촉 불량, 단말기기 전원 종료 또는 스위치 인터페이스 물리 링크 캐리어 소실이 확인됨.</p>\n                <div style=\"font-size: 12px; color: #94a3b8;\">\n                    <strong>영향 범위:</strong> VLAN 2 대역 내 단말 [PC-2F-기획팀-14 (LG Gram)] 유선 네트워크 통신 일시 단절 및 관제 알림\n                </div>\n            </div>\n\n            <!-- 5. 담당자 권장 조치 가이드 (Checklist) -->\n            <div style=\"background: #0d131f; border: 1px solid #1e293b; border-radius: 8px; padding: 16px; margin-bottom: 24px;\">\n                <div style=\"font-size: 13px; font-weight: 700; color: #10b981; margin-bottom: 8px;\">\n                    🛠️ 네트워크 담당자 권장 조치 사항 (Action Guide)\n                </div>\n                <ul style=\"margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e1; line-height: 1.6;\">\n                    <li>1단계: 포트 Gi2&#x2F;0&#x2F;14의 물리 패치 케이블 결착 상태 및 패치패널 포트 LED 상태 점검</li><li>2단계: 연결 단말 [PC-2F-기획팀-14 (LG Gram)] (IP: 10.101.2.144, MAC: 48:9E:BD:56:E7:EB) 전원 상태 및 랜카드 이상 여부 확인</li><li>3단계: 스위치 웹 콘솔 접속 후 인터페이스 상세 설정에서 Admin 상태(no shutdown) 또는 포트 보안 err-disable 복구</li><li>4단계: 지속적 문제 발생 시 UTP Cat6 라인 교체 또는 예비 포트로 패칭 전환 조치</li>\n                </ul>\n            </div>\n\n            <!-- 6. 웹 콘솔 바로가기 버튼 -->\n            <div style=\"text-align: center; margin-top: 20px;\">\n                <a href=\"http:&#x2F;&#x2F;localhost:8080\" style=\"display: inline-block; background: #00f2fe; color: #0b0f19; font-weight: 700; text-decoration: none; padding: 12px 28px; border-radius: 6px; font-size: 13px; box-shadow: 0 4px 14px rgba(0, 242, 254, 0.4);\">\n                    Cisco 2960-S 웹 관리 콘솔 즉시 접속 및 포트 제어\n                </a>\n                <p style=\"margin-top: 10px; font-size: 11px; color: #64748b;\">\n                    본 메일은 Cisco Catalyst 2960-S 네트워크 관제 시스템에서 실시간 감지하여 자동 발송된 보안 경보입니다.\n                </p>\n            </div>\n        </div>\n\n        <!-- 푸터 -->\n        <div style=\"background: #090c13; padding: 14px 24px; border-top: 1px solid #1a2333; text-align: center; font-size: 11px; color: #64748b;\">\n            Cisco Catalyst 2960-S Series PoE+ Enterprise Stack Web Console | KISA 시큐어코딩 46개 항목 준수\n        </div>\n    </div>\n</body>\n</html>\n    ",
+  "deliveryResult": {
+    "sent": true,
+    "recipient": "netadmin@company.com",
+    "method": "simulated_delivery",
+    "message": "담당자 이메일(netadmin@company.com) 발송 큐 등록 및 보고서 아카이브 완료"
+  }
+}

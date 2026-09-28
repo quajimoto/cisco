@@ -1,0 +1,1529 @@
+{
+  "system": {
+    "hostname": "MAIN_CORE_L3_SW",
+    "model": "Cisco Catalyst 3850-24XU Core L3",
+    "firmwareVersion": "15.0(2)SE",
+    "serialNumber": "FOC2960S-MAINCOREL3SW",
+    "ipAddress": "10.101.241.1",
+    "subnetMask": "255.255.255.0",
+    "defaultGateway": "10.101.241.254",
+    "ntpServer": "10.101.241.254",
+    "macAgingTime": 300,
+    "bootTime": "2026-09-16T05:55:49.322Z",
+    "stackCount": 1
+  },
+  "poeSummary": {
+    "availableWatts": 370,
+    "usedWatts": 38.4,
+    "remainingWatts": 331.6
+  },
+  "stp": {
+    "mode": "rstp",
+    "priority": 32768,
+    "helloTime": 2,
+    "maxAge": 20,
+    "forwardDelay": 15
+  },
+  "ports": [
+    {
+      "id": 1,
+      "name": "Gi1/0/1",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "PC-1F-고객지원팀-01 (Samsung)",
+      "connectedClient": {
+        "ipAddress": "10.101.2.101",
+        "mac": "00:E0:4C:1F:02:01",
+        "deviceName": "PC-1F-고객지원팀-01 (Samsung)",
+        "vendor": "Samsung Electronics"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 268552,
+        "txPackets": 242075,
+        "rxBytes": 424631865,
+        "txBytes": 257630107,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": true,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 1,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/1"
+    },
+    {
+      "id": 2,
+      "name": "Gi1/0/2",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "PC-1F-고객지원팀-02 (LG)",
+      "connectedClient": {
+        "ipAddress": "10.101.2.102",
+        "mac": "00:E0:4C:1F:02:02",
+        "deviceName": "PC-1F-고객지원팀-02 (LG)",
+        "vendor": "LG Electronics"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 19228,
+        "txPackets": 6093,
+        "rxBytes": 517125103,
+        "txBytes": 97783308,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": true,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 2,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/2"
+    },
+    {
+      "id": 3,
+      "name": "Gi1/0/3",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": true,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 3,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/3"
+    },
+    {
+      "id": 4,
+      "name": "Gi1/0/4",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": true,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 4,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/4"
+    },
+    {
+      "id": 5,
+      "name": "Gi1/0/5",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "AP-1F-Lobby (Cisco Aironet PoE)",
+      "connectedClient": {
+        "ipAddress": "10.101.2.105",
+        "mac": "00:E0:4C:1F:02:05",
+        "deviceName": "AP-1F-Lobby (Cisco Aironet PoE)",
+        "vendor": "Cisco Systems"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "on",
+        "powerWatts": 12.8,
+        "device": "Cisco AP",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 7773,
+        "txPackets": 167310,
+        "rxBytes": 136824324,
+        "txBytes": 295566185,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 5,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/5"
+    },
+    {
+      "id": 6,
+      "name": "Gi1/0/6",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "AP-1F-Office (Cisco Aironet PoE)",
+      "connectedClient": {
+        "ipAddress": "10.101.2.106",
+        "mac": "00:E0:4C:1F:02:06",
+        "deviceName": "AP-1F-Office (Cisco Aironet PoE)",
+        "vendor": "Cisco Systems"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "on",
+        "powerWatts": 12.8,
+        "device": "Cisco AP",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 197427,
+        "txPackets": 4843,
+        "rxBytes": 348668957,
+        "txBytes": 439000429,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 6,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/6"
+    },
+    {
+      "id": 7,
+      "name": "Gi1/0/7",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 7,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/7"
+    },
+    {
+      "id": 8,
+      "name": "Gi1/0/8",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 2,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        2
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 8,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/8"
+    },
+    {
+      "id": 9,
+      "name": "Gi1/0/9",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "VoIP-Phone-1F-01 (Cisco 7841 PoE)",
+      "connectedClient": {
+        "ipAddress": "10.101.10.109",
+        "mac": "00:E0:4C:1F:02:09",
+        "deviceName": "VoIP-Phone-1F-01 (Cisco 7841 PoE)",
+        "vendor": "Cisco Systems"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "on",
+        "powerWatts": 6.4,
+        "device": "Cisco IP Phone",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 293920,
+        "txPackets": 71399,
+        "rxBytes": 164909010,
+        "txBytes": 99464946,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 9,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/9"
+    },
+    {
+      "id": 10,
+      "name": "Gi1/0/10",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "VoIP-Phone-1F-02 (Cisco 7841 PoE)",
+      "connectedClient": {
+        "ipAddress": "10.101.10.110",
+        "mac": "00:E0:4C:1F:02:0A",
+        "deviceName": "VoIP-Phone-1F-02 (Cisco 7841 PoE)",
+        "vendor": "Cisco Systems"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "on",
+        "powerWatts": 6.4,
+        "device": "Cisco IP Phone",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 132571,
+        "txPackets": 47057,
+        "rxBytes": 516726689,
+        "txBytes": 93658840,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 10,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/10"
+    },
+    {
+      "id": 11,
+      "name": "Gi1/0/11",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 11,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/11"
+    },
+    {
+      "id": 12,
+      "name": "Gi1/0/12",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 12,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/12"
+    },
+    {
+      "id": 13,
+      "name": "Gi1/0/13",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 13,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/13"
+    },
+    {
+      "id": 14,
+      "name": "Gi1/0/14",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "Printer-1F-ColorLaser (HP)",
+      "connectedClient": {
+        "ipAddress": "10.101.10.114",
+        "mac": "00:E0:4C:1F:02:0E",
+        "deviceName": "Printer-1F-ColorLaser (HP)",
+        "vendor": "LG Electronics"
+      },
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 272215,
+        "txPackets": 185229,
+        "rxBytes": 467650920,
+        "txBytes": 170458071,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 14,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/14"
+    },
+    {
+      "id": 15,
+      "name": "Gi1/0/15",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 15,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/15"
+    },
+    {
+      "id": 16,
+      "name": "Gi1/0/16",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 10,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        10
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 16,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/16"
+    },
+    {
+      "id": 17,
+      "name": "Gi1/0/17",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 20,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        20
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 17,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/17"
+    },
+    {
+      "id": 18,
+      "name": "Gi1/0/18",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 20,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        20
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 18,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/18"
+    },
+    {
+      "id": 19,
+      "name": "Gi1/0/19",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 20,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        20
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 19,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/19"
+    },
+    {
+      "id": 20,
+      "name": "Gi1/0/20",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 20,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        20
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 20,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/20"
+    },
+    {
+      "id": 21,
+      "name": "Gi1/0/21",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 20,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        20
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 21,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/21"
+    },
+    {
+      "id": 22,
+      "name": "Gi1/0/22",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "access",
+      "pvid": 20,
+      "taggedVlans": [],
+      "untaggedVlans": [
+        20
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 22,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "GigabitEthernet1/0/22"
+    },
+    {
+      "id": 23,
+      "name": "Gi1/0/23",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "trunk",
+      "pvid": 1,
+      "taggedVlans": [
+        1,
+        2,
+        10,
+        20,
+        241
+      ],
+      "untaggedVlans": [
+        1
+      ],
+      "description": "Uplink-to-Core-Trunk-1",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 74473,
+        "txPackets": 54138,
+        "rxBytes": 146056103,
+        "txBytes": 169271235,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 23,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/23"
+    },
+    {
+      "id": 24,
+      "name": "Gi1/0/24",
+      "switchNum": 1,
+      "type": "GigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "1G",
+      "duplex": "full",
+      "mtu": 1500,
+      "flowControl": false,
+      "mode": "trunk",
+      "pvid": 1,
+      "taggedVlans": [
+        1,
+        2,
+        10,
+        20,
+        241
+      ],
+      "untaggedVlans": [
+        1
+      ],
+      "description": "Uplink-to-Core-Trunk-2",
+      "connectedClient": null,
+      "poe": {
+        "mode": "auto",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 30
+      },
+      "stats": {
+        "rxPackets": 243474,
+        "txPackets": 32727,
+        "rxBytes": 607946869,
+        "txBytes": 237002570,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 2,
+        "violationAction": "shutdown",
+        "sticky": true
+      },
+      "portNum": 24,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "GigabitEthernet1/0/24"
+    },
+    {
+      "id": 25,
+      "name": "Te1/0/1",
+      "switchNum": 1,
+      "type": "TenGigabitEthernet",
+      "admin": true,
+      "status": "up",
+      "speed": "10G",
+      "duplex": "full",
+      "mtu": 9216,
+      "flowControl": true,
+      "mode": "trunk",
+      "pvid": 1,
+      "taggedVlans": [
+        1,
+        2,
+        10,
+        20,
+        241
+      ],
+      "untaggedVlans": [
+        1
+      ],
+      "description": "10G-Fiber-Core-Backbone",
+      "connectedClient": null,
+      "poe": {
+        "mode": "never",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 0
+      },
+      "stats": {
+        "rxPackets": 1520000,
+        "txPackets": 1839000,
+        "rxBytes": 1948201948,
+        "txBytes": 2194820184,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 10,
+        "violationAction": "protect",
+        "sticky": false
+      },
+      "portNum": 1,
+      "adminState": "up",
+      "linkState": "up",
+      "fullName": "TenGigabitEthernet1/0/1"
+    },
+    {
+      "id": 26,
+      "name": "Te1/0/2",
+      "switchNum": 1,
+      "type": "TenGigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 9216,
+      "flowControl": true,
+      "mode": "trunk",
+      "pvid": 1,
+      "taggedVlans": [
+        1,
+        2,
+        10,
+        20,
+        241
+      ],
+      "untaggedVlans": [
+        1
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "never",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 0
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 10,
+        "violationAction": "protect",
+        "sticky": false
+      },
+      "portNum": 2,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "TenGigabitEthernet1/0/2"
+    },
+    {
+      "id": 27,
+      "name": "Te1/0/3",
+      "switchNum": 1,
+      "type": "TenGigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 9216,
+      "flowControl": true,
+      "mode": "trunk",
+      "pvid": 1,
+      "taggedVlans": [
+        1,
+        2,
+        10,
+        20,
+        241
+      ],
+      "untaggedVlans": [
+        1
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "never",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 0
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 10,
+        "violationAction": "protect",
+        "sticky": false
+      },
+      "portNum": 3,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "TenGigabitEthernet1/0/3"
+    },
+    {
+      "id": 28,
+      "name": "Te1/0/4",
+      "switchNum": 1,
+      "type": "TenGigabitEthernet",
+      "admin": true,
+      "status": "down",
+      "speed": "auto",
+      "duplex": "auto",
+      "mtu": 9216,
+      "flowControl": true,
+      "mode": "trunk",
+      "pvid": 1,
+      "taggedVlans": [
+        1,
+        2,
+        10,
+        20,
+        241
+      ],
+      "untaggedVlans": [
+        1
+      ],
+      "description": "",
+      "connectedClient": null,
+      "poe": {
+        "mode": "never",
+        "status": "off",
+        "powerWatts": 0,
+        "device": "n/a",
+        "maxWatts": 0
+      },
+      "stats": {
+        "rxPackets": 0,
+        "txPackets": 0,
+        "rxBytes": 0,
+        "txBytes": 0,
+        "rxErrors": 0,
+        "txErrors": 0
+      },
+      "portSecurity": {
+        "enabled": false,
+        "maxMac": 10,
+        "violationAction": "protect",
+        "sticky": false
+      },
+      "portNum": 4,
+      "adminState": "up",
+      "linkState": "down",
+      "fullName": "TenGigabitEthernet1/0/4"
+    }
+  ],
+  "vlans": [
+    {
+      "id": 1,
+      "name": "default",
+      "subnet": "10.101.1.0/24",
+      "ipAddress": "10.101.1.254",
+      "subnetMask": "255.255.255.0",
+      "usableRange": "10.101.1.1 ~ 10.101.1.253",
+      "description": "기본 시스템 VLAN"
+    },
+    {
+      "id": 2,
+      "name": "USER_1F",
+      "subnet": "10.101.2.0/24",
+      "ipAddress": "10.101.2.254",
+      "subnetMask": "255.255.255.0",
+      "usableRange": "10.101.2.1 ~ 10.101.2.253",
+      "description": "1층 고객지원 및 업무용"
+    },
+    {
+      "id": 10,
+      "name": "DEV_TEST",
+      "subnet": "10.101.10.0/24",
+      "ipAddress": "10.101.10.254",
+      "subnetMask": "255.255.255.0",
+      "usableRange": "10.101.10.1 ~ 10.101.10.253",
+      "description": "연구개발 테스트망"
+    },
+    {
+      "id": 20,
+      "name": "VOIP_VOICE",
+      "subnet": "10.101.20.0/24",
+      "ipAddress": "10.101.20.254",
+      "subnetMask": "255.255.255.0",
+      "usableRange": "10.101.20.1 ~ 10.101.20.253",
+      "description": "인터넷 전화망"
+    },
+    {
+      "id": 241,
+      "name": "MGMT",
+      "subnet": "10.101.241.0/24",
+      "ipAddress": "10.101.241.254",
+      "subnetMask": "255.255.255.0",
+      "usableRange": "10.101.241.1 ~ 10.101.241.253",
+      "description": "네트워크 관리 대역"
+    }
+  ],
+  "macTable": [
+    {
+      "mac": "00:E0:4C:1F:02:01",
+      "ipAddress": "10.101.2.101",
+      "deviceName": "PC-1F-고객지원팀-01 (Samsung)",
+      "vendor": "Samsung Electronics",
+      "vlanId": 2,
+      "portId": 1,
+      "portName": "Gi1/0/1",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 16
+    },
+    {
+      "mac": "00:E0:4C:1F:02:02",
+      "ipAddress": "10.101.2.102",
+      "deviceName": "PC-1F-고객지원팀-02 (LG)",
+      "vendor": "LG Electronics",
+      "vlanId": 2,
+      "portId": 2,
+      "portName": "Gi1/0/2",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 26
+    },
+    {
+      "mac": "00:E0:4C:1F:02:05",
+      "ipAddress": "10.101.2.105",
+      "deviceName": "AP-1F-Lobby (Cisco Aironet PoE)",
+      "vendor": "Cisco Systems",
+      "vlanId": 2,
+      "portId": 5,
+      "portName": "Gi1/0/5",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 19
+    },
+    {
+      "mac": "00:E0:4C:1F:02:06",
+      "ipAddress": "10.101.2.106",
+      "deviceName": "AP-1F-Office (Cisco Aironet PoE)",
+      "vendor": "Cisco Systems",
+      "vlanId": 2,
+      "portId": 6,
+      "portName": "Gi1/0/6",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 59
+    },
+    {
+      "mac": "00:E0:4C:1F:02:09",
+      "ipAddress": "10.101.10.109",
+      "deviceName": "VoIP-Phone-1F-01 (Cisco 7841 PoE)",
+      "vendor": "Cisco Systems",
+      "vlanId": 10,
+      "portId": 9,
+      "portName": "Gi1/0/9",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 19
+    },
+    {
+      "mac": "00:E0:4C:1F:02:0A",
+      "ipAddress": "10.101.10.110",
+      "deviceName": "VoIP-Phone-1F-02 (Cisco 7841 PoE)",
+      "vendor": "Cisco Systems",
+      "vlanId": 10,
+      "portId": 10,
+      "portName": "Gi1/0/10",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 55
+    },
+    {
+      "mac": "00:E0:4C:1F:02:0E",
+      "ipAddress": "10.101.10.114",
+      "deviceName": "Printer-1F-ColorLaser (HP)",
+      "vendor": "LG Electronics",
+      "vlanId": 10,
+      "portId": 14,
+      "portName": "Gi1/0/14",
+      "switchNum": 1,
+      "type": "dynamic",
+      "interfaceType": "access",
+      "age": 56
+    }
+  ],
+  "lagGroups": [
+    {
+      "id": 1,
+      "name": "Port-Channel1",
+      "mode": "active",
+      "members": [
+        23,
+        24
+      ],
+      "description": "Trunk to Core L3 Switch"
+    }
+  ],
+  "alertSettings": {
+    "enabled": true,
+    "managerEmail": "netadmin@company.com",
+    "managerName": "네트워크 운영 총괄 담당자",
+    "senderEmail": "cisco-alert@switch.internal",
+    "senderName": "Cisco NetMonitor (MAIN_CORE_L3_SW)",
+    "smtpHost": "smtp.gmail.com",
+    "smtpPort": 587,
+    "smtpSecure": false,
+    "smtpUser": "",
+    "smtpPass": "",
+    "notifyOnLinkDown": true,
+    "notifyOnSecurityViolation": true,
+    "notifyOnPoeFault": true,
+    "notifyOnStackChange": true
+  },
+  "lastSaved": "2026-09-23T05:55:49.324Z"
+}

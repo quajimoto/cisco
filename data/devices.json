@@ -1,0 +1,57 @@
+{
+  "activeDeviceId": "dev-office-3f-sw5",
+  "devices": [
+    {
+      "id": "dev-office-3f-sw5",
+      "name": "OFFICE_3F_SW_5",
+      "ipAddress": "10.101.241.5",
+      "model": "Cisco Catalyst 2960-S PoE+ (Stackable)",
+      "location": "본관 3층 통신랙 #5 (실시간 연동 장비)",
+      "portCount": 28,
+      "configFile": "dev-office-3f-sw5.json",
+      "status": "online",
+      "lastSynced": "2026-09-23T05:55:49.350Z",
+      "createdAt": "2026-09-23T05:55:49.350Z",
+      "lastSaved": "2026-09-28T00:05:21.345Z"
+    },
+    {
+      "id": "dev-core-l3-sw",
+      "name": "MAIN_CORE_L3_SW",
+      "ipAddress": "10.101.241.1",
+      "model": "Cisco Catalyst 3850-24XU Core L3",
+      "location": "본관 B1층 전산실 메인 백본 랙 (실시간 연동 장비)",
+      "portCount": 28,
+      "configFile": "dev-core-l3-sw.json",
+      "status": "online",
+      "lastSynced": "2026-09-23T05:55:49.350Z",
+      "createdAt": "2026-09-23T05:55:49.350Z"
+    },
+    {
+      "id": "dev-office-2f-sw1",
+      "name": "OFFICE_2F_SW_1",
+      "ipAddress": "10.101.241.6",
+      "model": "Cisco Catalyst 2960S-48FPS-L (4-Stack)",
+      "location": "본관 2층 방재통신실 랙 #2",
+      "portCount": 184,
+      "configFile": "dev-office-2f-sw1.json",
+      "status": "online",
+      "lastSynced": "2026-09-23T05:55:49.350Z",
+      "createdAt": "2026-09-23T05:55:49.350Z"
+    },
+    {
+      "id": "dev-office-1f-sw2",
+      "name": "OFFICE_1F_SW_2",
+      "ipAddress": "10.101.241.7",
+      "model": "Cisco Catalyst 2960-S 24-Port PoE+",
+      "location": "본관 1층 사무실 단독 랙 #1",
+      "portCount": 28,
+      "configFile": "dev-office-1f-sw2.json",
+      "status": "online",
+      "lastSynced": "2026-09-23T05:55:49.350Z",
+      "createdAt": "2026-09-23T05:55:49.350Z",
+      "powerStatus": "online",
+      "lastPowerOffAt": "2026-09-28T00:05:21.309Z",
+      "lastPowerRestoredAt": "2026-09-28T00:05:21.400Z"
+    }
+  ]
+}

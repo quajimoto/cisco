@@ -1,0 +1,23 @@
+[
+  {
+    "username": "admin",
+    "role": "admin",
+    "salt": "8edcd1cbbdb09ecf4e88e436a1e83561",
+    "hash": "a20f2914a22380502de41a8dabcc42c55c9b25d23d8445892841b52215510973bce0645c1cee0e3a51915047993625ccc38a82f96df6a8f0240d18f91d993844",
+    "createdAt": "2026-09-22T05:31:24.920Z"
+  },
+  {
+    "username": "operator",
+    "role": "operator",
+    "salt": "5242cd8b1258aa08c8f00ad93cfa33ea",
+    "hash": "4e99a3f7f9f1b995993351e16637a7699ee9531510cf266f6905b4b5e656bc5cb9352fd7627317f6d0a219c560a7bb894d71e34c9bc07e540390dd0a816b0444",
+    "createdAt": "2026-09-22T05:31:24.920Z"
+  },
+  {
+    "username": "viewer",
+    "role": "viewer",
+    "salt": "49f028c3509c107d570332c5b88a1ca4",
+    "hash": "2bfe87f25b96c41ec90fbd2256fbbe5031975b825f1e9a0f74d7a9edf08ade7a1d4670a199178a8ed0c532c7953c4581dab024133e239c5986de921f682e7324",
+    "createdAt": "2026-09-22T05:31:24.920Z"
+  }
+]
